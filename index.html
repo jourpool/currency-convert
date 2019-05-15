@@ -1,0 +1,84 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="container">
+			<div class="input-container">
+				<input id="base-value" type="text" value="10.00" onkeypress='validate(event)'/> USD
+			</div>
+			<div class="card-container">
+				<div class="card">
+					<div class="card-title">USD</div>
+					<div class="card-value">0</div>
+					<div class="card-rate">Rates: </div>
+					<div class="card-close">-</div>
+				</div><div class="card">
+					<div class="card-title">CAD</div>
+					<div class="card-value">0</div>
+					<div class="card-rate">Rates: </div>
+					<div class="card-close">-</div>
+				</div><div class="card">
+					<div class="card-title">IDR</div>
+					<div class="card-value">0</div>
+					<div class="card-rate">Rates: </div>
+					<div class="card-close">-</div>
+				</div><div class="card">
+					<div class="card-title">GBP</div>
+					<div class="card-value">0</div>
+					<div class="card-rate">Rates: </div>
+					<div class="card-close">-</div>
+				</div><div class="card">
+					<div class="card-title">CHF</div>
+					<div class="card-value">0</div>
+					<div class="card-rate">Rates: </div>
+					<div class="card-close">-</div>
+				</div><div class="card">
+					<div class="card-title">SGD</div>
+					<div class="card-value">0</div>
+					<div class="card-rate">Rates: </div>
+					<div class="card-close">-</div>
+				</div><div class="card">
+					<div class="card-title">INR</div>
+					<div class="card-value">0</div>
+					<div class="card-rate">Rates: </div>
+					<div class="card-close">-</div>
+				</div><div class="card">
+					<div class="card-title">MYR</div>
+					<div class="card-value">0</div>
+					<div class="card-rate">Rates: </div>
+					<div class="card-close">-</div>
+				</div><div class="card">
+					<div class="card-title">JPY</div>
+					<div class="card-value">0</div>
+					<div class="card-rate">Rates: </div>
+					<div class="card-close">-</div>
+				</div><div class="card">
+					<div class="card-title">KRW</div>
+					<div class="card-value">0</div>
+					<div class="card-rate">Rates: </div>
+					<div class="card-close">-</div>
+				</div></div>
+			<div class="input-container">
+				<select id="additional">
+					<option>USD</option>
+					<option>CAD</option>
+					<option>IDR</option>
+					<option>GBP</option>
+					<option>CHF</option>
+					<option>SGD</option>
+					<option>INR</option>
+					<option>MYR</option>
+					<option>JPY</option>
+					<option>KRW</option>
+				</select>
+				<input id="add" type="button" value="+" />
+			</div>
+		</div>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
