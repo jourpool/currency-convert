@@ -1,1 +1,1 @@
-# Foreign Exchange Currency App Exercise
+# Foreign Exchange Currency App
